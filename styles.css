@@ -1,0 +1,70 @@
+body {
+    background: url('images/bar.jpg') no-repeat 0 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+main {
+    margin: 30px 400px;
+    background: rgba(160, 120, 85, 0.95);
+    color: #D4B996FF;
+    padding: 15px 30px 10px 40px;
+    min-width: 250px;
+}
+
+main h1 {
+    color: #BD7F37FF;
+    background: #A13941FF;
+    padding: 15px 90px;
+    margin: 0px -80px 0px -90px;
+    position: relative;
+    color: rgb(212, 185, 150);
+}
+
+main h1::before {
+    content: '';
+    background: url('images/left.png') no-repeat 0 0;
+    width: 425px;
+    height: 425px;
+    position: absolute;
+    left: 0px;
+    top: 72px;
+    background-size: 50px;
+}
+
+main h1::after {
+    content: '';
+    background: url('images/right.png') no-repeat 0 0;
+    width: 425px;
+    height: 425px;
+    position: absolute;
+    right: -375px;
+    top: 72px;
+    background-size: 50px;
+}
+
+main ul {
+    padding: 0;
+    margin: 0;
+}
+
+main ul li {
+    display: block;
+    position: relative;
+    padding: 0px 0px 0px 14px;
+}
+
+main ul li::before {
+    content: '';
+    background: url('images/symbol.png') no-repeat 0 0;
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    background-size: 10px;
+}
